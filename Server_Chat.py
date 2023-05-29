@@ -21,3 +21,5 @@ while True:
     print(f"Connected to {str(address)}")
     recieve_thread = Thread(target=receive, args=(client,))
     recieve_thread.start()
+
+
